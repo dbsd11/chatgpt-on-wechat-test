@@ -32,7 +32,7 @@ services:
           mountPoints:
             - serverAddr: 03808482b2-nwn30.cn-hangzhou.nas.aliyuncs.com
               nasDir: /chatgpt-on-wechat/plugins
-              fcDir: /app/plugins2
+              fcDir: /app/plugins
       function:
         name: "chatgpt-on-wechat-api"
         description: 'chatgpt on wechat api'
